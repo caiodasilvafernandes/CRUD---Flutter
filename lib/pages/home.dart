@@ -1,4 +1,6 @@
 import 'package:crud/components/appBar.dart';
+import 'package:crud/components/appBar.dart';
+import 'package:crud/components/body.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,6 +15,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar(),
+      body: body(),
     );
   }
 }
